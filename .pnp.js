@@ -9146,14 +9146,6 @@ function $$SETUP_STATE(hydrateRuntimeState) {
                   "npm:15.6.2"
                 ],
                 [
-                  "react",
-                  "npm:16.8.3"
-                ],
-                [
-                  "react-dom",
-                  "virtual:ee378392c91baa8a0cdb3e7b0643e8472b3f6099c82f245c6730be2ba7add37f627c0847968edfed41145580afb7240aa765de0b34999effcbb65e43639605dc#npm:16.8.3"
-                ],
-                [
                   "react-lifecycles-compat",
                   "npm:3.0.4"
                 ],
@@ -9191,7 +9183,7 @@ function $$SETUP_STATE(hydrateRuntimeState) {
                 ],
                 [
                   "react-dom",
-                  "virtual:8e4e5aebf99bee24928bfe6ddfe9752f131bffc9cbe1267d4a509a14edebfc2c1ea71fb1090dfa825476947036eced30fcc5fb4a1e3b84c0920d5dcae13f70de#npm:16.8.3"
+                  "virtual:ee378392c91baa8a0cdb3e7b0643e8472b3f6099c82f245c6730be2ba7add37f627c0847968edfed41145580afb7240aa765de0b34999effcbb65e43639605dc#npm:16.8.3"
                 ],
                 [
                   "react-lifecycles-compat",
@@ -9224,6 +9216,14 @@ function $$SETUP_STATE(hydrateRuntimeState) {
                 [
                   "prop-types",
                   "npm:15.6.2"
+                ],
+                [
+                  "react",
+                  "npm:16.8.3"
+                ],
+                [
+                  "react-dom",
+                  "virtual:8e4e5aebf99bee24928bfe6ddfe9752f131bffc9cbe1267d4a509a14edebfc2c1ea71fb1090dfa825476947036eced30fcc5fb4a1e3b84c0920d5dcae13f70de#npm:16.8.3"
                 ],
                 [
                   "react-lifecycles-compat",
@@ -15342,18 +15342,6 @@ function $$SETUP_STATE(hydrateRuntimeState) {
                 ]
               ]
             }
-          ],
-          [
-            "npm:2.6.5",
-            {
-              "packageLocation": "./.yarn/cache/core-js-npm-2.6.5-814567893dab56b9eb40efe0e8f2421d0d782e12c2d66d6909860b85a5fdeb55.zip/node_modules/core-js/",
-              "packageDependencies": [
-                [
-                  "core-js",
-                  "npm:2.6.5"
-                ]
-              ]
-            }
           ]
         ]
       ],
@@ -15404,6 +15392,18 @@ function $$SETUP_STATE(hydrateRuntimeState) {
                 [
                   "unset-value",
                   "npm:1.0.0"
+                ]
+              ]
+            }
+          ],
+          [
+            "npm:2.6.5",
+            {
+              "packageLocation": "./.yarn/cache/core-js-npm-2.6.5-814567893dab56b9eb40efe0e8f2421d0d782e12c2d66d6909860b85a5fdeb55.zip/node_modules/core-js/",
+              "packageDependencies": [
+                [
+                  "core-js",
+                  "npm:2.6.5"
                 ]
               ]
             }
@@ -25140,14 +25140,6 @@ function $$SETUP_STATE(hydrateRuntimeState) {
                 [
                   "prop-types",
                   "npm:15.6.2"
-                ],
-                [
-                  "react",
-                  "npm:16.8.3"
-                ],
-                [
-                  "react-dom",
-                  "virtual:ce527ec683870c2e65be3407f57b14ff598d069ae538c7110a163bfb41a88017e8301f15786712ff442797367af84a8791c3f642a993f25f04b4bf749f62e54d#npm:16.8.3"
                 ]
               ]
             }
@@ -25180,6 +25172,14 @@ function $$SETUP_STATE(hydrateRuntimeState) {
                 [
                   "prop-types",
                   "npm:15.6.2"
+                ],
+                [
+                  "react",
+                  "npm:16.8.3"
+                ],
+                [
+                  "react-dom",
+                  "virtual:ce527ec683870c2e65be3407f57b14ff598d069ae538c7110a163bfb41a88017e8301f15786712ff442797367af84a8791c3f642a993f25f04b4bf749f62e54d#npm:16.8.3"
                 ]
               ]
             }
@@ -40116,14 +40116,6 @@ function $$SETUP_STATE(hydrateRuntimeState) {
                   "npm:15.6.2"
                 ],
                 [
-                  "react",
-                  "npm:16.8.3"
-                ],
-                [
-                  "react-dom",
-                  "virtual:27fec32b7ffe9d896cf135df7c08bdea417fa5342623f0de81f5e7c1ee4bb0e07b4c546a9cca6dd6e4a8caff91af4b932e3edd73973a2fa6cec0db3f1fd5706e#npm:16.8.3"
-                ],
-                [
                   "react-lifecycles-compat",
                   "npm:3.0.4"
                 ],
@@ -40170,6 +40162,14 @@ function $$SETUP_STATE(hydrateRuntimeState) {
                 [
                   "prop-types",
                   "npm:15.6.2"
+                ],
+                [
+                  "react",
+                  "npm:16.8.3"
+                ],
+                [
+                  "react-dom",
+                  "virtual:27fec32b7ffe9d896cf135df7c08bdea417fa5342623f0de81f5e7c1ee4bb0e07b4c546a9cca6dd6e4a8caff91af4b932e3edd73973a2fa6cec0db3f1fd5706e#npm:16.8.3"
                 ],
                 [
                   "react-lifecycles-compat",
