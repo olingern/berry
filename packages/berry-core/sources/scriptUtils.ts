@@ -28,8 +28,13 @@ export async function makeScriptEnv(project: Project) {
   // Register some binaries that must be made available in all subprocesses
   // spawned by Berry
 
+  // TODO: This `yarn` binary should probably be variadic depending on some
+  // constant somewhere, so that custom builds can rename the tool into
+  // something else? Or not ...
+
   await makePathWrapper(binFolder, `run`, process.execPath, [process.argv[1], `run`]),
-  await makePathWrapper(binFolder, `berry`, process.execPath, [process.argv[1]]),
+  await makePathWrapper(binFolder, `yarn`, process.execPath, [process.argv[1]]),
+  await makePathWrapper(binFolder, `yarnpkg`, process.execPath, [process.argv[1]]),
   await makePathWrapper(binFolder, `node`, process.execPath),
 
   scriptEnv.PATH = scriptEnv.PATH
